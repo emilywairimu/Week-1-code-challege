@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./salary.css">
+    <title>Net Salary Calculator</title>
+</head>
+
+<body> <!--input form-->
+    
+    <div id="Basic-Salary">
+        <h1> Net Salary Calculator</h1>
+
+         <!--input form-->
+    <div id="Basic Salary">
+        <input id="Basic" type="number" placeholder="Basic Salary" min="0" oninput="handleSalary(event)">
+    </div>
+
+    <!--output-->
+    <div id="nhif">NHIF :<span></span></div>
+    <div id="nssf">NSSF :<span></span></div>
+    <div id="payee">PAYEE : <span></span></div>
+    <div id="taxableincome">Taxable Income : <span></span></div>
+    <div id="netpay">Net Salary : <span></span></div>
+
+
+
+
+   
+    <!--js file link-->
+    <script src="./salary.js"></script>
+</body>
+</html>
